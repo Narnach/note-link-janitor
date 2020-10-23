@@ -1,11 +1,14 @@
 # note-link-janitor
 
+(This is a fork of Andy's repo, intended to merge community requests and experiment with my own changes)
+
 This script reads in a folder of Markdown files, notes all the [[wiki-style links]] between them, then adds a special "backlinks" section which lists passages which reference a given file.
 
 For example, this text might get added to `Sample note.md`:
 
 ```
 ## Backlinks
+
 * [[Something that links here]]
     * The block of text in the referencing note which contains the link to [[Sample note]].
     * Another block in that same note which links to [[Sample note]].
