@@ -56,6 +56,10 @@ yarn install
 yarn run build
 ```
 
+## Note for personal use
+
+If you want to use this yourself, you need to run a `yarn pack` to create a package in this project's directory. Afterwards, do a `yarn add ../note-link-janitor/andymatuschak-note-link-janitor*.tgz` from your project to add it there. Without this build/install step, I could not get the script to run in my own project.
+
 ## Future work
 
 In the future, I intend to expand this project to monitor for broken links, orphans, and other interesting hypertext-y predicates.
